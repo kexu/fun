@@ -14,7 +14,9 @@ def pi(n):
         y = random() ** 2
         if x + y <= 1:
             t += 1
-    return t/n*4
+    print n
+    print t
+    return 4.0000*t/n
 
 print (pi(10**7))
 
